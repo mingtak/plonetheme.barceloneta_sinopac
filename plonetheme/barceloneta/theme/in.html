@@ -8,7 +8,7 @@
 <meta property="og:title" content="永豐銀行-動理財"/>
 <meta property="og:type" content="website"/>
 <meta property="og:url" content="http://event.sinopac.com"/>
-<meta property="og:image" content="http://event.sinopac.com/++theme++barceloneta/images/fb_155-100.jpg"/>
+<meta property="og:image" content="http://event.sinopac.com/++theme++barceloneta/images/phone.png"/>
 <meta property="og:site_name" content="永豐銀行-動理財" />
 <meta property="fb:app_id" content="921530634563116" />
 <meta property="fb:admins" content="andyfang51"/>
@@ -54,6 +54,13 @@ function MM_showHideLayers() { //v9.0
 
 <body onload="MM_preloadImages('http://event.sinopac.com/++theme++barceloneta/images/btn01b.png','http://event.sinopac.com/++theme++barceloneta/images/btn02b.png','http://event.sinopac.com/++theme++barceloneta/images/btn03b.png','http://event.sinopac.com/++theme++barceloneta/images/btn04b.png','http://event.sinopac.com/++theme++barceloneta/images/btn05b.png','http://event.sinopac.com/++theme++barceloneta/images/btn06b.png')">
 
+<!-- addthis -->
+<!-- Go to www.addthis.com/dashboard to customize your tools -->
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-56375ab2d7f80182" async="async"></script>
+
+<!-- addthis end -->
+
+
 
 <div id="fb-root"></div>
 <script>(function(d, s, id) {
@@ -64,9 +71,9 @@ function MM_showHideLayers() { //v9.0
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
 
-
+<!--
 <div class="fb-share-button" data-href="http://event.sinopac.com" data-layout="button_count"></div>
-
+-->
 <div id="all" align="center">
 <div id="wrapper">
 <div id="bg">
@@ -75,14 +82,20 @@ function MM_showHideLayers() { //v9.0
 <a href="https://bank.sinopac.com/bsp/index/index.asp" target="_blank" style="float:left;"><img src="images/logo.gif" border="0" /></a>
 <div id="logo-bb">
 <div id="w-ss"><a href="https://www.facebook.com/SinoPac?fref=ts" target="_blank" class="blue-link">成為永豐Follow Me粉絲</a></div>
-<div id="share">
+<!--<div id="share">
 <ul>
 <li><a href="#">FB</a></li>
 <li><a href="#">P</a></li>
 <li><a href="#">T</a></li>
 <li><a href="#">g+</a></li>
 </ul>
-</div>
+</div> -->
+
+<!-- Go to www.addthis.com/dashboard to customize your tools -->
+邀朋友一起加入
+<div style="float:right" class="addthis_sharing_toolbox"></div>
+
+
 </div>
 </div>
 <!--logo end-->
@@ -125,6 +138,7 @@ function MM_showHideLayers() { //v9.0
 <div id="in-word-03-04" style="display:none">
 <div id="in-word-03">
   <a target="_blank"
+     data-rel="dialog"
      href="https://www.facebook.com/sharer/sharer.php?app_id=921530634563116&sdk=joey&u=http%3A%2F%2Fevent.sinopac.com%2F&display=popup&ref=plugin&src=share_button" onmouseout="MM_swapImgRestore()"
      onmouseover="MM_swapImage('Image16','','http://event.sinopac.com/++theme++barceloneta/images/btn06b.png',1)">
     <img src="http://event.sinopac.com/++theme++barceloneta/images/btn06.png" name="Image16" border="0" id="Image16" />
@@ -148,7 +162,7 @@ function MM_showHideLayers() { //v9.0
 </div>
 <!--right end-->
 <div id="in-qr"> <a href="https://www.facebook.com/SinoPac?fref=ts" target="_blank"><img src="images/pic02.png" border="0" /></a>
-<img src="images/QRcode.png" />
+<a target="_blank" href="http://ppt.cc/C3wMw"><img src="images/QRcode.png" /></a>
 </div>
 <!--word end-->
 </div>
@@ -159,8 +173,9 @@ function MM_showHideLayers() { //v9.0
 </div>
 </div>
 <!--notice-->
+
 <div id="notice">
-<br/><br/><br/><br/><br/><br/>
+<div id="close"><a href="#"><img src="images/icon-close.png" onclick="MM_showHideLayers('notice','','hide')" border="0" /></a></div>
 <table border="0" align="center" cellpadding="0" cellspacing="0">
   <tr>
     <td colspan="2" valign="top"><h3 style="color:#F00;">活動辦法：</h3></td>
@@ -215,8 +230,8 @@ function MM_showHideLayers() { //v9.0
     <td>參加粉絲於參加本活動之同時，即同意接受本活動之活動辦法與注意事項之規範。活動期間倘因不可歸責於永豐銀行之事由，永豐銀行保留活動規則及內容修改之權利，任何異動以《永豐Follow ME 》粉絲團公告為準。</td>
   </tr>
 </table>
-<div style="width:100px; margin:0 auto; margin-top:20px; text-align:center; border:1px #999 solid; background:#CCC; padding-top:5px; padding-bottom:5px;"><a href="#" class="white-link" onclick="MM_showHideLayers('notice','','hide')">關閉視窗</a></div>
 </div>
+
 <!--notice end-->
 </div>
 <!--控制手機版選單-->
@@ -229,7 +244,7 @@ $(function () {
     setTimeout(function () {
         $("#in-word-gray").hide(0);
         $("#in-word-03-04").show(0);
-    }, 30000);
+    }, 10000);
 })
 </script>  
 

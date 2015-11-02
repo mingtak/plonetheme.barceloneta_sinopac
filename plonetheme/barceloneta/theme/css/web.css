@@ -127,7 +127,7 @@ body {
 #w-ss{
 	width:143px;
 	float:left;
-	margin-top:8px;
+/*	margin-top:0px; */
 }
 #share{
 	width:167px;
@@ -244,11 +244,18 @@ body {
 #phone{
 	width:42%;
 	margin-top:47px;
+        margin-bottom:-3px;
 	float:left;
 }
 #phone img{
 	width:100%;
 }
+
+#close{
+	width:60%;
+	text-align:right;
+}
+
 /*----------------- notice --------------------*/
 #notice {
 	position:absolute;
@@ -353,6 +360,11 @@ body, th, td, input { font-family:"Hiragino Kaku Gothic Pro","微軟正黑體","
 	width:38.5%;
 	margin-top:47px;
 	float:left;
+}
+/*平板*/
+#close{
+	width:98%;
+	text-align:right;
 }
 /*----------------- notice --------------------*/
 #notice {
