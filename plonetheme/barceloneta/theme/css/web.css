@@ -264,7 +264,7 @@ body {
 	z-index:1;
 	visibility: hidden;
 	left:0;
-	top:10%;
+	top:12%;
 	filter: Alpha(Opacity=95);
 	opacity: 0.95;
 	padding-top:5%;
@@ -356,6 +356,11 @@ body, th, td, input { font-family:"Hiragino Kaku Gothic Pro","微軟正黑體","
 	margin-top:15px;
 	text-align:center;
 }
+
+#words-in img {
+ width:100%;
+}
+
 #phone{
 	width:38.5%;
 	margin-top:47px;
@@ -374,7 +379,7 @@ body, th, td, input { font-family:"Hiragino Kaku Gothic Pro","微軟正黑體","
 	z-index:1;
 	visibility: hidden;
 	left:0;
-	top:10%;
+	top:14%;
 	filter: Alpha(Opacity=95);
 	opacity: 0.95;
 	padding-top:5%;
@@ -411,7 +416,9 @@ body, th, td, input { font-family:"Hiragino Kaku Gothic Pro","微軟正黑體","
 	float:left;
 	margin-left:15px;
 	margin-top:15px;
+        display:none;
 }
+
 #w-ss{
 	width:143px;
 	float:left;
@@ -478,7 +485,8 @@ border-radius:20px;
 	width:200px;
 	position:absolute;
 	top:58px;
-	left:68%;
+/*	left:68%; */
+        right:0;
 	border-radius:10px 0 0 10px;
 	background:#0f659b;
 	filter: Alpha(Opacity=95);
