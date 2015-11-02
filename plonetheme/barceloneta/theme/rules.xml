@@ -20,7 +20,7 @@
     <!-- Title -->
     <replace css:theme="title" css:content="title" />
     <!-- Pull in Plone Meta -->
-    <after css:theme-children="head" css:content="head meta" />
+<!--    <after css:theme-children="head" css:content="head meta" /> -->
     <!-- Don't use Plone icons, use the theme's -->
     <drop css:content="head link[rel='apple-touch-icon']" />
     <drop css:content="head link[rel='shortcut icon']" />
