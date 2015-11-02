@@ -41,6 +41,8 @@ function MM_showHideLayers() { //v9.0
 </head>
 
 <body onload="MM_preloadImages('http://event.sinopac.com/++theme++sinopac.theme/images/btn01b.png','http://event.sinopac.com/++theme++sinopac.theme/images/btn02b.png','http://event.sinopac.com/++theme++sinopac.theme/images/btn03b.png','http://event.sinopac.com/++theme++sinopac.theme/images/btn04b.png','http://event.sinopac.com/++theme++sinopac.theme/images/btn05b.png','http://event.sinopac.com/++theme++sinopac.theme/images/btn06b.png')">
+
+
 <div id="all" align="center">
 <div id="wrapper">
 <div id="bg">
@@ -93,8 +95,26 @@ function MM_showHideLayers() { //v9.0
 <p class="word-b-red">敗家無罪，血拚有理！12星座誰最愛亂買東西？</p>
 </div>
 <!--QQQQQQQQQQQQQQQQQQQ end-->
-<div id="in-word-03"><a href="#" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image16','','http://event.sinopac.com/++theme++sinopac.theme/images/btn06b.png',1)"><img src="http://event.sinopac.com/++theme++sinopac.theme/images/btn06.png" name="Image16" border="0" id="Image16" /></a></div>
+<div id="in-word-gray">
+  <img src="http://event.sinopac.com/++theme++barceloneta/images/btn06-gray.png" name="Image16" border="0" id="Image16" />
+</div>
+<div id="in-word-03-04" style="display:none">
+<div id="in-word-03">
+  <a target="_blank"
+     href="https://www.facebook.com/sharer/sharer.php?app_id=921530634563116&sdk=joey&u=http%3A%2F%2Fevent.sinopac.com%2Fvideo&display=popup&ref=plugin&src=share_button" onmouseout="MM_swapImgRestore()"
+     onmouseover="MM_swapImage('Image16','','http://event.sinopac.com/++theme++sinopac.theme/images/btn06b.png',1)">
+    <img src="http://event.sinopac.com/++theme++sinopac.theme/images/btn06.png" name="Image16" border="0" id="Image16" />
+  </a>
+</div>
+</div>
 <div id="in-word-04">按扭變藍色就可以答題分享去囉！</div>
+
+
+<!--
+<div class="fb-share-button" data-href="http://event.sinopac.com/video" data-layout="box_count"></div>
+-->
+
+
 </div>
 <!--left end-->
 <!--right-->
@@ -177,5 +197,18 @@ function MM_showHideLayers() { //v9.0
 <!--控制手機版選單-->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
 <script src="js/mmenu.js"></script>
+
+
+<script language='javascript' type='text/javascript'>  
+$(function () {
+    setTimeout(function () {
+        $("#in-word-gray").hide(0);
+        $("#in-word-03-04").show(0);
+    }, 30000);
+})
+</script>  
+
+
+
 </body>
 </html>
