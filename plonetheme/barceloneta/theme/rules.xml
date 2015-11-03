@@ -120,4 +120,9 @@
       />
 
 
+
+<!-- sinopac_code -->
+<after css:content-children="div.sinopac_code" css:theme-children="body" />
+
+
 </rules>

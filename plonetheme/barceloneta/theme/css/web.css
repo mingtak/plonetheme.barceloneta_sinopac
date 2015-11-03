@@ -491,6 +491,7 @@ border-radius:20px;
 	background:#0f659b;
 	filter: Alpha(Opacity=95);
 	opacity: 0.95;
+	z-index:999;
 }
 #top_menu ul {
 	margin:0;
